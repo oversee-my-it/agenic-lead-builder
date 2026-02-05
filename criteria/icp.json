@@ -1,0 +1,18 @@
+{
+  "version":"2026-02-05",
+  "name":"Heavily Regulated and Compliance-Driven SMBs",
+  "geo":{"include":["Continental United States"]},
+  "industriesInclude":["Financial Services","Healthcare","Compliance-Driven Small to Medium Businesses"],
+  "healthcareSubverticals":["Memory Care","Rehab Centers","Privately Owned Medical Practices"],
+  "industriesExclude":["Gambling (B2C)","Adult Industry","Illicit / Restricted Sectors"],
+  "size":{"employeesMin":20,"employeesMax":null},
+  "revenue":{"annualMinUSD":2000000,"annualMaxUSD":null},
+  "operatingModel":{"coManagedIT":true,"acceptsLongTermPartnerships":true},
+  "decisionMakers":{"titles":["CEO","CFO","COO","Owner","VP Operations","Executive Director","Practice Manager","CIO","CTO","IT Director","IT Manager"]},
+  "psychographics":{"values":["Open-Minded","Stability-Focused","Scalability-Focused","Risk-Aware","Considers IT an Asset, not a Cost","Prefers transparency & honest communication","Seeks long-term partners, not vendors"]},
+  "uniqueValueProps":[
+    {"name":"Partnership","value":"We are invested in our client’s success."},
+    {"name":"Open & Honest Communication","value":"We don't hide or cover the truth."},
+    {"name":"Thoughtful Solutions","value":"Broad services, product-agnostic, tailored."}
+  ]
+}
