@@ -1,0 +1,54 @@
+
+regulated_industries:
+  financial_services:
+    must_match_terms:
+      - financial
+      - bank
+      - credit union
+      - fintech
+      - payment services
+      - lending
+      - insurance
+    compliance_terms:
+      - PCI
+      - PCI-DSS
+      - SOX
+      - GLBA
+      - FFIEC
+      - NACHA
+
+  healthcare:
+    must_match_terms:
+      - clinic
+      - practice
+      - care
+      - rehab
+      - therapy
+      - provider
+      - medical
+      - health system
+    compliance_terms:
+      - HIPAA
+      - PHI
+      - BAA
+      - HITECH
+      - "Notice of Privacy Practices"
+
+  smb_general:
+    must_match_terms:
+      - small business
+      - mid-sized business
+      - SMB
+    compliance_terms:
+      - SOC 2
+      - ISO 27001
+      - NIST
+
+rules:
+  evidence_minimum:
+    high_confidence: 2
+    medium_confidence: 1
+    low_confidence: 0
+
+output:
+  statuses: ["Regulated","Likely Regulated","Inconclusive","Not Regulated"]
