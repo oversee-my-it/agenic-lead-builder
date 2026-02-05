@@ -1,0 +1,5 @@
+
+region:
+  us:
+    geo_include: ["Continental United States"]
+    notes: "Primary selling region per CEO."

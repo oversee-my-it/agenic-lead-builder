@@ -1,0 +1,31 @@
+
+services:
+  - name: Co-Managed IT
+    solves:
+      - "Augment internal IT team"
+      - "Scale operations"
+      - "Improve stability"
+    proof_signals:
+      - "IT hiring velocity"
+      - "Backlog of tickets"
+  - name: Security & Compliance (HIPAA/PCI/SOC2 Readiness)
+    solves:
+      - "Meet regulatory requirements"
+      - "Reduce risk exposure"
+    proof_signals:
+      - "Mentions of HIPAA/PCI/SOC"
+      - "Audit findings"
+  - name: Microsoft 365 / Entra / Intune Management
+    solves:
+      - "Modern workplace enablement"
+      - "Device and identity security"
+    proof_signals:
+      - "Microsoft 365 presence"
+      - "Endpoint management needs"
+  - name: SharePoint/Power Platform Enablement
+    solves:
+      - "Process automation"
+      - "Content and knowledge management"
+    proof_signals:
+      - "SharePoint use"
+      - "Citizen dev interest"

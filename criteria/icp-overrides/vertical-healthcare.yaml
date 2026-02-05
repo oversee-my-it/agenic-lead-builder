@@ -1,0 +1,17 @@
+
+vertical:
+  healthcare:
+    include_labels:
+      - clinic
+      - practice
+      - memory care
+      - rehab
+      - therapy
+      - provider
+      - medical
+      - health system
+    preferred_titles:
+      - Practice Manager
+      - Executive Director
+      - CIO
+      - IT Director

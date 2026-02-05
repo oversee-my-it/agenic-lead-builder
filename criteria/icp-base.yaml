@@ -1,0 +1,62 @@
+
+icp:
+  name: "Heavily Regulated and Compliance-Driven SMBs"
+  geo:
+    include: ["Continental United States"]
+
+  industries_include:
+    - Financial Services
+    - Healthcare
+      - Memory Care
+      - Rehab Centers
+      - Privately Owned Medical Practices
+    - Compliance-Driven Small to Medium Businesses
+
+  industries_exclude:
+    - Gambling (B2C)
+    - Adult Industry
+    - Illicit / Restricted Sectors
+
+  size:
+    employees_min: 20
+    employees_max: null
+
+  revenue:
+    annual_min_usd: 2000000
+    annual_max_usd: null
+
+  operating_model:
+    co_managed_it: true
+    accepts_long_term_partnerships: true
+
+  decision_makers:
+    titles:
+      - CEO
+      - CFO
+      - COO
+      - Owner
+      - VP Operations
+      - Executive Director
+      - Practice Manager
+      - CIO
+      - CTO
+      - IT Director
+      - IT Manager
+
+  psychographics:
+    values:
+      - Open-Minded
+      - Stability-Focused
+      - Scalability-Focused
+      - Risk-Aware
+      - Considers IT an Asset, not a Cost
+      - Prefers transparency & honest communication
+      - Seeks long-term partners, not vendors
+
+  unique_value_props:
+    - name: Partnership
+      value: "We are invested in our client’s success."
+    - name: Open & Honest Communication
+      value: "We don't hide or cover the truth."
+    - name: Thoughtful Solutions
+      value: "Broad services, product-agnostic, tailored."

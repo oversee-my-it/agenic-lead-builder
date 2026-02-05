@@ -1,0 +1,15 @@
+
+vertical:
+  financial_services:
+    include_labels:
+      - bank
+      - credit union
+      - fintech
+      - payment services
+      - lending
+      - insurance
+    preferred_titles:
+      - CFO
+      - VP Finance
+      - CIO
+      - CISO

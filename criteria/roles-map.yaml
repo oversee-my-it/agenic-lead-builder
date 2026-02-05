@@ -1,0 +1,22 @@
+
+roles:
+  economic_buyer:
+    include_titles:
+      - CEO
+      - Owner
+      - Executive Director
+      - CFO
+      - COO
+      - VP Operations
+  technical_buyer:
+    include_titles:
+      - CIO
+      - CTO
+      - CISO
+      - Director of IT
+      - IT Manager
+  influencer:
+    include_titles:
+      - Compliance Officer
+      - Practice Manager
+      - Department Head

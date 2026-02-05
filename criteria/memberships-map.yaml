@@ -1,0 +1,16 @@
+
+memberships:
+  target_keywords:
+    - "member of"
+    - "proud member"
+    - "affiliated with"
+    - "association"
+    - "chamber"
+    - "coalition"
+    - "council"
+  preferred:
+    - "Chamber of Commerce"
+    - "Healthcare Associations"
+    - "Business Leadership Council"
+    - "Industry Associations"
+  output_fields: ["org_name","proof_text","page_section"]

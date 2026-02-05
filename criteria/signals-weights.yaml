@@ -1,0 +1,16 @@
+
+scoring:
+  fit:
+    industry_match: 20
+    size_revenue_match: 15
+    tech_fit: 15
+    geography: 10
+  intent:
+    hiring_velocity: 10
+    news_momentum: 10
+    tech_change: 10
+    partner_signals: 10
+  thresholds:
+    high: 70
+    medium: 50
+    low: 0
