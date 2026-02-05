@@ -1,0 +1,7 @@
+
+Output exactly 5 bullets:
+- ICP Match: {High|Medium|Low} + one-clause rationale.
+- Sales Contact: best initial title to approach (not a name unless publicly listed).
+- Compliance/Regulation: status using compliance-rules.yaml + confidence.
+- Lead Type: {Relationship Suggestion|Product Customer} with one reason.
+- Services Fit: 2–3 services from services-map.yaml.

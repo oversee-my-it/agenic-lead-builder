@@ -1,0 +1,15 @@
+
+extraction:
+  sales_summary:
+    bullets: 5
+    fields:
+      - icp_match
+      - best_sales_contact_title
+      - regulation_status
+      - lead_type
+      - services_fit
+  contacts:
+    max_items: 6
+    fields: [name, title, profile_url, role_class]
+  memberships:
+    fields: [org_name, proof_text, page_section]
